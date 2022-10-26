@@ -1,0 +1,131 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+  --nav-color: rgb(70, 70, 70);
+  --color-link: rgba(19, 120, 243, 0.94);
+  --text-color: azure;
+  --border-color: rgb(19, 110, 222);
+}
+
+.page-wrap {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(221, 227, 234);
+}
+
+.header {
+  background: var(--nav-color);
+  border-bottom: 6px solid var(--border-color);
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+/* Nav-menu */
+
+.menu {
+  display: flex;
+  background: var(--nav-color);
+}
+
+.nav-menu {
+  position: relative;
+}
+
+.menu-link {
+  padding: 20px;
+  color: var(--text-color);
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.menu > li:hover .sub-menu {
+  display: block;
+}
+
+.nav-menu-link {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  justify-content: space-between;
+}
+
+.menu-link-icon:hover .nav-menu-icon {
+  transform: rotate(180deg);
+}
+
+.nav-menu-icon {
+  color: var(--text-color);
+  transition: all 0.2s ease;
+}
+
+.nav-menu-link:hover {
+  background: var(--color-link);
+}
+
+.nav-link {
+  padding: 20px;
+  color: var(--text-color);
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  justify-content: space-between;
+}
+
+
+/* Menu nested */
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 49px;
+  left: 110px;
+  z-index: 2;
+  padding: 10px 0px 0px;
+}
+
+.sub-menu,
+.sub-menu-icon,
+.sub-sub-menu,
+.sub-sub-menu1 {
+  min-width: 220px;
+}
+
+.sub-menu > li,
+.sub-sub-menu > li,
+.sub-sub-menu1 > li {
+  background-color: var(--nav-color);
+}
+
+.sub-sub-menu-link1:hover .sub-sub-menu1,
+.sub-menu-link:hover .sub-sub-menu {
+  display: block;
+}
+
+.sub-sub-menu {
+  display: none;
+  position: absolute;
+  top: 64px;
+  left: 100%;
+  z-index: 2;
+  background: var(--color-link);
+}
+
+.sub-sub-menu1 {
+  display: none;
+  position: absolute;
+  top: 10px;
+  left: 100%;
+  z-index: 2;
+  background: var(--color-link);
+}
