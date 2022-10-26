@@ -3,17 +3,17 @@ body {
 }
 
 :root {
-  --nav-color: rgb(74, 70, 70);
+  --nav-color: rgb(84, 52, 26);
   --color-link: rgba(24, 123, 244, 0.94);
   --text-color: azure;
-  --border-color: rgb(19, 110, 222);
+  --border-color: rgb(182, 152, 128);
 }
 
 .page-wrap {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color:rgba(225, 211, 208, 0.533);
+  background-color:rgba(187, 164, 158, 0.533);
   background-size: cover;
   background-repeat: no-repeat;
   
