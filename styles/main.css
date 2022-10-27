@@ -156,17 +156,20 @@ main {
   font-weight: 400;
   font-size: 20px;
   z-index: 6;
+  color: var(--main-text-color);
 }
 
 .main-text {
   font-weight: 400;
   font-size: 20px;
   padding-bottom: 70px;
+  color: var(--main-text-color);
+
 }
 
 .button {
   border: 2px solid var(--nav-color);
-  color: black;
+  color: var(--main-text-color);
   background-color: var(--border-color);
   padding: 10px;
 border-radius: 6px;
