@@ -130,6 +130,10 @@ body {
   background: var(--color-link);
 }
 
+
+/* main */
+
+
 main {
   flex-grow: 1;
 }
@@ -166,6 +170,10 @@ main {
   color: var(--main-text-color);
 
 }
+
+
+/* Button styling */
+
 
 .button {
   border: 2px solid var(--nav-color);

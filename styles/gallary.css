@@ -130,6 +130,10 @@ body {
   background: var(--color-link);
 }
 
+
+/* Main styling */
+
+
 main {
   flex-grow: 1;
 }
@@ -164,6 +168,14 @@ main {
 .image {
   max-width: 450px;
 }
+
+.img {
+    margin-right: 10px;
+}
+
+
+/* Button styling */
+
 
 .button {
   border: 2px solid var(--nav-color);
